@@ -14,6 +14,7 @@
 		0C1979A7212B6428001A496F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1979A5212B6428001A496F /* LaunchScreen.storyboard */; };
 		0C1979B2212B6428001A496F /* ARKit_MeasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1979B1212B6428001A496F /* ARKit_MeasureTests.swift */; };
 		0C1979BD212B6428001A496F /* ARKit_MeasureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1979BC212B6428001A496F /* ARKit_MeasureUITests.swift */; };
+		0C1979CB212B71EC001A496F /* ARPlaneAnchor+Visualize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1979CA212B71EB001A496F /* ARPlaneAnchor+Visualize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C1979B8212B6428001A496F /* ARKit_MeasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKit_MeasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1979BC212B6428001A496F /* ARKit_MeasureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_MeasureUITests.swift; sourceTree = "<group>"; };
 		0C1979BE212B6428001A496F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1979CA212B71EB001A496F /* ARPlaneAnchor+Visualize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARPlaneAnchor+Visualize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0C19799C212B6426001A496F /* AppDelegate.swift */,
 				0C19799E212B6426001A496F /* ViewController.swift */,
+				0C1979CA212B71EB001A496F /* ARPlaneAnchor+Visualize.swift */,
 				0C1979A0212B6426001A496F /* Main.storyboard */,
 				0C1979A3212B6428001A496F /* Assets.xcassets */,
 				0C1979A5212B6428001A496F /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1979CB212B71EC001A496F /* ARPlaneAnchor+Visualize.swift in Sources */,
 				0C19799F212B6426001A496F /* ViewController.swift in Sources */,
 				0C19799D212B6426001A496F /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPM57AZN5T;
 				INFOPLIST_FILE = ARKit_Measure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPM57AZN5T;
 				INFOPLIST_FILE = ARKit_Measure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
